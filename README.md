@@ -1,4 +1,4 @@
-# STanford EArthquake Dataset (STEAD) Format to Seisbench Format 
+# Converting from STanford EArthquake Dataset (STEAD) Format to Seisbench Format 
 
 Quick Overview: Google Colab notebooks to parse STEAD data, convert STEAD formatted data to Seisbench formatted data. 
 
