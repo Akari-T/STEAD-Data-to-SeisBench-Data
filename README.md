@@ -2,8 +2,22 @@
 
 Quick Overview: Google Colab notebooks to parse STEAD data, convert STEAD formatted data to Seisbench formatted data. 
 
-1. parse_STEAD_data.ipynb: Given a .hdf5 and .csv file pair from [STEAD](https://github.com/smousavi05/STEAD), takes a smaller subset. 
-2. convert_STEAD_to_Seisbench.ipynb: Given a [STEAD](https://github.com/smousavi05/STEAD) formatted dataset, converts the data to [SeisBench](https://github.com/seisbench/seisbench) format. Creates an .hdf5 and .csv file pair. 
+1. **parse_STEAD_data.ipynb**: Given a .hdf5 and .csv file pair from [STEAD](https://github.com/smousavi05/STEAD), takes a smaller subset. 
+2. **convert_STEAD_to_Seisbench.ipynb**: Given a [STEAD](https://github.com/smousavi05/STEAD) formatted dataset, converts the data to [SeisBench](https://github.com/seisbench/seisbench) format. Creates an .hdf5 and .csv file pair.
+
+------
+
+**prase_STEAD_data.ipynb**
+
+Creates a STEAD formatted .hdf5 and .csv file pair containing a subset of noise waveforms (STEAD chunk1) and a subset of earthquake waveforms (STEAD chunk2). 
+
+------
+
+**convert_STEAD_to_Seisbench.ipynb**
+
+Converts a STEAD formatted .hdf5 and .csv file pair to a SeisBench formatted .hdf5 and .csv file pair. 
+
+------
 
 Possible Improvements: Use RDDs? 
 
